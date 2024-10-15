@@ -1,9 +1,10 @@
 """Exercise Set 1: Python Basics"""
 
 import numpy as np
+
 import matplotlib as plt
 
-
+###Testing###
 # Please, remove all the pass in the exercises and substitute them with the expected methods for your functions
 
 
