@@ -1,21 +1,34 @@
 """Exercise Set 1: Python Basics"""
 
-import numpy as np
+#import numpy as np
 
-import matplotlib as plt
+#import matplotlib as plt
 
-###Testing###
 # Please, remove all the pass in the exercises and substitute them with the expected methods for your functions
-
 
 # ex1
 def exercise1():
-    pass
+    def calc(a,b):
+      if a * b > 1000:
+        return a+b
+      else:
+          return a * b
+    a = int(input("Put the first number: "))
+    b = int(input("Put the second number: "))
+
+    print(calc(a,b))
 
 
 # ex2
 def exercise2():
-    pass
+    a = [10,20,30,40,50,60,70,80,90,100]
+
+    i = int(input("Put the index from where the iteration will start: "))
+
+    for i in range(10):
+        b = a[i]
+
+    print("The sum is:", b + a[i-1])
 
 
 # ex3
