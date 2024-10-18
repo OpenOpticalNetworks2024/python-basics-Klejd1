@@ -30,7 +30,7 @@ def exercise1():
 def exercise2():
     sampleList = [34, 54, 67, 89, 11, 43, 94]
 
-    sampleList[1] = sampleList[1] + sampleList
+    sampleList[1] = sampleList[1] + 11
     sampleList[len(sampleList) - 1] =  sampleList[len(sampleList) - 1] + 11
     sampleList.pop(4)
     print(sampleList)
